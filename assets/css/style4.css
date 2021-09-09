@@ -1,0 +1,102 @@
+.content{
+   
+        margin-top: 100px ;
+        margin-bottom: 30px;
+   
+}
+.introduce{
+        margin-top:30px;
+        display:  flex;
+        color: var(--text-color);
+}
+.introduce__section-left{
+        flex: 30%;
+    }
+    .introduce__section-right{
+        flex:70%;
+        padding: 0px 10px;
+    }
+.introduce__section-left-heading{
+        text-align:center;
+        padding: 20px 0;
+        font-size:2.5rem;
+}
+.introduce__catogory-item{
+        list-style: none;
+}
+.introduce__catogory-item a{
+        display: block;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: var(--text-color);
+        margin: 0px 20px;
+        padding: 15px;
+    }
+    .introduce__catogory-item a:hover{
+        background-color:rgba(0, 0, 0, 0.05);
+        cursor:pointer;
+    }
+.introduce__section-right-heading{
+        text-align: center;
+        padding: 20px 0;
+        font-size:2.5rem;     
+}
+.newspaper__new-item{
+        padding-bottom: 25px;
+      
+}
+
+
+
+.newspaper__new-item-img{
+        width: 100%;
+        height:180px;
+        border:5px solid #fff;
+        overflow: hidden;
+        box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+}
+.newspaper__new-item-img img{
+        
+        width: 100%;
+        height:100%;
+        transition: all ease 0.3s;
+}
+.newspaper__new-item-img img:hover{
+        transform: scale(1.2);
+        opacity: 0.8;
+}
+.newspaper__new-item-link{
+        padding: 6px 0 ;
+        display: block;
+        font-size:1.7rem;
+        font-weight: 600;
+        text-decoration: none;
+      color:darkslategray;
+}
+.newspaper__new-item-link:hover{
+        text-decoration: underline;
+}
+.newspaper__new-item-calendar{
+        font-size: 1.4rem;
+        padding: 3px 0;
+        line-height: 1.5;
+}
+.newspaper__new-item-tittle{
+        font-size: 1.5rem;
+        line-height:1.3;
+
+}
+@media only screen and (max-width:46.1875em) {
+        .taskbar{
+            display: none;
+        }
+        .introduce__section-left{
+            display: none;
+        }
+        .introduce__section-right{
+            padding:0 20px;
+        }
+        .newspaper__new-item-img{
+                height:130px;
+        }
+    }
